@@ -20,6 +20,7 @@ module.exports = {
     ignorePatterns: ["dist"],
     rules: {
       "@typescript-eslint/quotes": ["error", "double"],
+      "import/extensions": "off"
     },
   
 };

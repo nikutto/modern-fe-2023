@@ -4,7 +4,8 @@
     "dev": "solid-start dev",
     "build": "solid-start build",
     "start": "solid-start start",
-    "lint": "eslint --ext '.tsx,.ts,.jsx,.js' src"
+    "lint": "eslint --ext '.tsx,.ts,.jsx,.js' src",
+    "lint:fix": "eslint --fix --ext '.tsx,.ts,.jsx,.js' src"
   },
   "type": "module",
   "devDependencies": {

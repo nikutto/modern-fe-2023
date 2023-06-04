@@ -16,8 +16,8 @@ import "./root.css";
 import Header from "./hearder";
 
 export default function Root() {
-  const location: any = useLocation();
-  const hoge_fuga = "aaa";
+  const location = useLocation();
+
   return (
     <Html lang="en">
       <Head>
