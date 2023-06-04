@@ -5,7 +5,9 @@
     "build": "solid-start build",
     "start": "solid-start start",
     "lint": "eslint --ext '.tsx,.ts,.jsx,.js' src",
-    "lint:fix": "eslint --fix --ext '.tsx,.ts,.jsx,.js' src"
+    "lint:fix": "eslint --fix --ext '.tsx,.ts,.jsx,.js' src",
+    "format": "prettier --check src",
+    "format:fix": "prettier --write src"
   },
   "type": "module",
   "devDependencies": {

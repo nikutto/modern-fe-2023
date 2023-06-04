@@ -10,14 +10,13 @@ import {
   Meta,
   Routes,
   Scripts,
-  Title,
+  Title
 } from "solid-start";
 import "./root.css";
 import Header from "./hearder";
 
 export default function Root() {
   const location = useLocation();
-
   return (
     <Html lang="en">
       <Head>
@@ -28,7 +27,7 @@ export default function Root() {
       <Body>
         <Suspense>
           <ErrorBoundary>
-            <Header locationPathname={location.pathname}/>
+            <Header locationPathname={location.pathname} />
             <Routes>
               <FileRoutes />
             </Routes>
