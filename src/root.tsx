@@ -26,8 +26,8 @@ export default function Root() {
       </Head>
       <Body>
         <Suspense>
+          <Header locationPathname={location.pathname} />
           <ErrorBoundary>
-            <Header locationPathname={location.pathname} />
             <Routes>
               <FileRoutes />
             </Routes>

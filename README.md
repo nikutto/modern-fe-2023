@@ -21,3 +21,11 @@ Though there are some integration plugin (https://prettier.io/docs/en/related-pr
 ## Useful commands
 
 - `pnpm exec <command>`
+
+## SoldJs tips
+
+### ErrorBoundary
+
+Catch errors inside it. 
+Outside components can be rendered regardless its error.
+You can also render some error by passing failback prop.
